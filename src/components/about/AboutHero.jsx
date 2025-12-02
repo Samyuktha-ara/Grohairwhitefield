@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./AboutHero.module.css";
+import aboutImg from "../../assets/about.webp"
 
 export default function AboutHero() {
   return (
@@ -26,7 +27,7 @@ Whether you’re struggling with hair loss, scalp issues, acne, pigmentation, or
         {/* Right Illustration */}
         <div className={styles.imageBox}>
           <img
-            src="/src/assets/about.webp"
+            src={aboutImg}
             alt="About illustration"
             className={styles.heroImg}
           />

@@ -76,7 +76,7 @@ export default function TwoYouTubeTestimonialsCollage() {
           </div>
 
           <div className={styles.ctaRow}>
-            <button className={styles.primary}>See more testimonials</button>
+            {/* <button className={styles.primary}>See more testimonials</button> */}
             <button className={styles.ghost} onClick={() => setPlaying(-1)}>Close all</button>
           </div>
         </main>

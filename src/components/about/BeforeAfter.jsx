@@ -1,12 +1,17 @@
 import React from "react";
 import styles from "./BeforeAfter.module.css";
+import trans1 from "../../assets/trans1.jpg";
+import trans2 from "../../assets/trans2.jpg";
+import trans3 from "../../assets/trans3.jpg";
+import trans4 from "../../assets/trans4.jpg";
+import trans5 from "../../assets/trans5.jpg";
 
 const steps = [
-  { img: "/src/assets/trans1.jpg",},
-  { img: "/src/assets/trans2.jpg", },
-  { img: "/src/assets/trans3.jpg" },
-  { img: "/src/assets/trans4.jpg",  },
-  { img: "/src/assets/trans5.jpg",  },
+  { img: trans1 },
+  { img: trans2 },
+  { img: trans3 },
+  { img: trans4 },
+  { img: trans5 },
 ];
 
 export default function BeforeAfter() {

@@ -7,7 +7,7 @@
   background: transparent;
 }
 
-/* Main white pill container */
+/* Main white pill container (desktop) */
 .shell {
   width: min(1400px, 100% - 32px);
   background: #ffffff;
@@ -18,6 +18,14 @@
   justify-content: space-between;
   gap: 20px;
   box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
+}
+
+/* Top row: logo + hamburger */
+.topRow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
 }
 
 /* Brand left */
@@ -46,7 +54,15 @@
   color: #111827;
 }
 
-/* Center nav */
+/* Logo image */
+.logoImg {
+  width: 126px;
+  height: 66px;
+  object-fit: contain;
+  padding: 6px;
+}
+
+/* Center nav (desktop) */
 .nav {
   display: flex;
   justify-content: center;
@@ -59,22 +75,15 @@
   align-items: center;
   gap: 8px;
   padding: 0px 16px;
-  /* border-radius: 999px; */
-  /* background: #ffffff; */
-  /* border: 1px solid rgba(148, 163, 184, 0.6); */
   font-size: 14px;
   font-weight: 500;
-  /* color: #111827; */
+  color: #333;
   text-decoration: none;
-  /* box-shadow: 0 2px 4px rgba(148, 163, 184, 0.25); */
   transition:
     background 0.2s ease,
     box-shadow 0.2s ease,
     transform 0.15s ease,
     border-color 0.2s ease;
-     color: #333;
-  text-decoration: none;
-  /* transition: 0.2s ease; */
 }
 
 .activeNavItem {
@@ -84,10 +93,7 @@
 }
 
 .navItem:hover {
-  /* background: #e5e7eb; */
-  /* border-color: rgba(148, 163, 184, 0.9); */
   transform: translateY(-1px);
-  /* box-shadow: 0 5px 12px rgba(148, 163, 184, 0.45); */
 }
 
 .navIcon {
@@ -107,9 +113,8 @@
   font-size: 14px;
   font-weight: 600;
   color: #ffffff;
- background: linear-gradient(135deg, #EC2028, #F74A50);
-
- box-shadow: 0 12px 26px rgba(236, 32, 40, 0.4);
+  background: linear-gradient(135deg, #EC2028, #F74A50);
+  box-shadow: 0 12px 26px rgba(236, 32, 40, 0.4);
   transition:
     transform 0.15s ease,
     box-shadow 0.15s ease,
@@ -126,39 +131,91 @@
   font-size: 16px;
 }
 
-.navSpl{
+.navSpl {
   text-decoration: none;
-  color:#fff;
+  color: #fff;
 }
 
-/* Responsive tweaks */
+/* Hamburger button (hidden on desktop) */
+.menuToggle {
+  display: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 6px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.menuToggle span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #111827;
+  border-radius: 999px;
+}
+
+/* ---------- Responsive tweaks ---------- */
 @media (max-width: 768px) {
+  /* Remove oval + shadow on mobile */
   .shell {
-    flex-wrap: wrap;
-    row-gap: 10px;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
     padding: 10px 12px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
   }
 
+  .topRow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Show hamburger on mobile */
+  .menuToggle {
+    display: inline-flex;
+  }
+
+  /* Nav: hidden by default, dropdown when open */
   .nav {
-    order: 3;
-    flex-wrap: wrap;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 8px;
+    border-top: 1px solid #e5e7eb;
+    padding-top: 8px;
   }
 
+  .navOpen {
+    display: flex;
+    padding-left: 15px;
+  }
+
+  .navItem,
+  .activeNavItem {
+    padding: 8px 0;
+  }
+
+  /* CTA full width under nav when open */
   .cta {
-    padding: 8px 16px;
-    font-size: 13px;
+    display: none;
+    width: 100%;
+    justify-content: center;
+    margin-top: 8px;
+    border-radius: 999px;
+  }
+
+  .ctaOpen {
+    display: inline-flex;
   }
 
   .brandName {
     font-size: 14px;
   }
-}
-.logoImg {
-  width: 126px;
-  height: 66px;
-  object-fit: contain;
-  /* border-radius: 50%; */
-  /* background: #fff; */
-  padding: 6px;
-  /* box-shadow: 0 4px 10px rgba(0,0,0,0.08); */
 }

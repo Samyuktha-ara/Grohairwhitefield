@@ -71,14 +71,10 @@ export default function ContactPage() {
               <label htmlFor="treatment">Treatment</label>
               <select id="treatment" required>
                 <option value="">Select treatment</option>
-                <option value="consultation">General Consultation</option>
-                <option value="dental">Dental Treatment</option>
-                <option value="skin">Skin / Cosmetic</option>
-                <option value="hair">Hair Treatment</option>
-                <option value="other">Other</option>
+                <option value="hairtreatment">Hair Treatment</option>
+                <option value="skintreatment">Skin Treatment</option>
               </select>
             </div>
-
 
             <button type="submit" className={styles.submitBtn}>
               Submit

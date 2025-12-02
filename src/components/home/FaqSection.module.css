@@ -41,6 +41,7 @@
     margin: 0;
     font-weight: 800;
     color: var(--accent);
+    text-align: left;
 }
 
 .sub {
@@ -275,5 +276,10 @@ mark {
 
     .leftTitle {
         font-size: 16px;
+    }
+
+    .tools{
+        display: flex;
+        flex-wrap: wrap !important;
     }
 }

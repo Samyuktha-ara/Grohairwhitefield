@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Footer.module.css";
+import Footerlogo from "../assets/G-logo.webp"
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
         {/* Logo + small text */}
         <div className={styles.brandCol}>
           <img
-            src="/src/assets/G logo.webp"
+            src={Footerlogo}
             alt="GroHair Logo"
             className={styles.logo}
           />

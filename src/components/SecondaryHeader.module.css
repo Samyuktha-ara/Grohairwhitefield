@@ -56,10 +56,15 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+  .secondaryHeader{
+    display: none;
+  }
+  
   .inner {
     flex-direction: column;
     gap: 6px;
     text-align: center;
+    display: none;
   }
 
   .left,
@@ -69,6 +74,10 @@
 }
 
 @media (max-width: 480px) {
+  .secondaryHeader{
+    display: none;
+  }
+  
   .item {
     font-size: 13px;
   }

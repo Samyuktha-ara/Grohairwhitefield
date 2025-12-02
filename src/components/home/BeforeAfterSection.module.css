@@ -81,4 +81,11 @@
   .title {
     font-size: 1.6rem;
   }
+
+  .navBtn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50% !important;
+    font-size: 10px;
+  }
 }

@@ -125,7 +125,7 @@ export default function FaqSectionModern() {
                   </span>
 
                   <span className={styles.qRight}>
-                    <span className={styles.time}>Quick</span>
+                    {/* <span className={styles.time}>Quick</span> */}
                     <span className={styles.chev} aria-hidden>{isOpen ? (<svg width="18" height="18" viewBox="0 0 24 24"><path d="M6 15l6-6 6 6" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" fill="none" /></svg>) : (<svg width="18" height="18" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" fill="none" /></svg>)}</span>
                   </span>
                 </button>

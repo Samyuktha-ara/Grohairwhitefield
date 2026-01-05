@@ -27,7 +27,7 @@ export default function AboutSection() {
 
       <div className={styles.left}>
         <div className={styles.card1}>
-          <h3>GroHair & GloSkin Thanjavur</h3>
+          <h3>Advance GroHair & GloSkin Whitefield</h3>
           <p>
             Whether you’re struggling with hair loss, scalp issues, acne, pigmentation, or signs of aging, our advanced treatments deliver visible and long-lasting results.
           </p>

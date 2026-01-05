@@ -6,7 +6,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <BrowserRouter basename="/Grohair-Tanjore_New">
+    <BrowserRouter basename="/Grohair-whiteField">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

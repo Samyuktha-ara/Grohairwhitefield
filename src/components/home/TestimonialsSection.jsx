@@ -14,40 +14,35 @@ const DATA = [
   {
     id: 1,
     type: "Hair Treatment",
-    text:
-      "It's been a very fantastic and nice experience with advanced gro hair and glo skin Thanjavur team, I got the best result after my GFC treatment. The way they handle the customer is really nice, polite, and sweet. Thank you",
+    text: "It's been a very fantastic and nice experience with Advance GroHair & GloSkin Whitefield team, I got the best result after my GFC treatment. The way they handle the customer is really nice, polite, and sweet. Thank you",
     name: "RAMANATHAN – Hair Treatment",
     img: avatar1,
   },
   {
     id: 2,
     type: "Hair Treatment",
-    text:
-      "I visited Advanced Glosin and Gor Hair Clinic for Hair treatment GFC. The ambience is excellent, creating a comfortable and relaxing environment. The doctors are very friendly and professional. Excellent experience",
+    text: "I visited Advanced Glosin and Gor Hair Clinic for Hair treatment GFC. The ambience is excellent, creating a comfortable and relaxing environment. The doctors are very friendly and professional. Excellent experience",
     name: "PARAVEEN C – Hair Treatment",
     img: avatar2,
   },
   {
     id: 3,
     type: "Skin Treatment",
-    text:
-      "Best place for whole body care internally and extremely... such a natural result in just two sessions... budget-friendly with high-end products and technicians... one stop for consultation and good procedures for skin, body, and hair growth...",
+    text: "Best place for whole body care internally and extremely... such a natural result in just two sessions... budget-friendly with high-end products and technicians... one stop for consultation and good procedures for skin, body, and hair growth...",
     name: "MONICA MARAN  – Skin Treatment",
     img: avatar3,
   },
   {
     id: 4,
     type: "Skin & Hair Treatment",
-    text:
-      "GroHair & GloSkin Thanjavur provide excellent care and support through out my treatment.",
+    text: "GroHair & GloSkin Whitefield provide excellent care and support through out my treatment.",
     name: "RAGHU – Skin & Hair Treatment",
     img: avatar4,
   },
   {
     id: 5,
     type: "Skin Treatment",
-    text:
-      "The skin treatments here are top-notch. After a few sessions, I noticed a significant improvement in my skin texture and tone. The team is professional and attentive to individual needs",
+    text: "The skin treatments here are top-notch. After a few sessions, I noticed a significant improvement in my skin texture and tone. The team is professional and attentive to individual needs",
     name: "HARISH  – Skin Treatment",
     img: avatar3,
   },

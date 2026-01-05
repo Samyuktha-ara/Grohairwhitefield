@@ -7,7 +7,7 @@ export default function ContactPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // later you can connect backend / emailjs etc
-    alert("Form submitted! (you can handle this later)");
+    alert("Form submitted!");
   };
 
   return (
@@ -90,39 +90,42 @@ export default function ContactPage() {
           <div className={styles.mapWrapper}>
             <iframe
               title="clinic-location"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3546.939232706588!2d79.136112!3d10.773315!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baab962ed07ae27%3A0x301c1c67f63e3b6c!2sAdvanced%20GroHair%20%26%20GloSkin%20-%20Thanjavur!5e1!3m2!1sen!2sin!4v1764052023250!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3518.4985790124797!2d77.74722017507636!3d12.967532887347513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0daa11099d79%3A0x476a129c832a9592!2sAdvanced%20GroHair%20%26%20GloSkin%20-%20Whitefield%20-%20Leading%20Hair%20and%20Skin%20Clinic!5e1!3m2!1sen!2sin!4v1767072242399!5m2!1sen!2sin"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               className={styles.mapIframe}
             ></iframe>
           </div>
 
-<div className={styles.contactInfoGrid}>
-  <div className={styles.infoBox}>
-    <span className={styles.iconWrap}>
-      <FontAwesomeIcon icon={faPhoneAlt} />
-    </span>
-    <p className={styles.infoTitle}>Phone</p>
-    <p className={styles.infoValue}>+918098756789</p>
-  </div>
+          <div className={styles.contactInfoGrid}>
+            <div className={styles.infoBox}>
+              <span className={styles.iconWrap}>
+                <FontAwesomeIcon icon={faPhoneAlt} />
+              </span>
+              <p className={styles.infoTitle}>Phone</p>
+              <p className={styles.infoValue}>+9108270556789</p>
+            </div>
 
-  <div className={styles.infoBox}>
-    <span className={styles.iconWrap}>
-      <FontAwesomeIcon icon={faEnvelope} />
-    </span>
-    <p className={styles.infoTitle}>Email</p>
-    <p className={styles.infoValue}>grohairgloskintnj@gmail.com</p>
-  </div>
+            <div className={styles.infoBox}>
+              <span className={styles.iconWrap}>
+                <FontAwesomeIcon icon={faEnvelope} />
+              </span>
+              <p className={styles.infoTitle}>Email</p>
+              <p className={styles.infoValue}>grohairgloskin@gmail.com</p>
+            </div>
 
-  <div className={styles.infoBox}>
-    <span className={styles.iconWrap}>
-      <FontAwesomeIcon icon={faMapMarkerAlt} />
-    </span>
-    <p className={styles.infoTitle}>Address</p>
-    <p className={styles.infoValue}>3,1st Floor,Philomena Hotel and Apartment,Arulananda Nagar,Thanjavur,Tamil Nadu-613007</p>
-  </div>
-</div>
-
+            <div className={styles.infoBox}>
+              <span className={styles.iconWrap}>
+                <FontAwesomeIcon icon={faMapMarkerAlt} />
+              </span>
+              <p className={styles.infoTitle}>Address</p>
+              <p className={styles.infoValue}>
+                11/3, 1st Floor, ELV Amoris, VASWANI PINNACLE, Whitefield Main
+                Rd, opposite Borewell Road, Narayanappa Garden, Landmark:Behind,
+                Bengaluru, Karnataka 560066
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

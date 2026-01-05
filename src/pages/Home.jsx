@@ -25,7 +25,7 @@ export default function Home() {
       <HairTreatments/>
       <SkinTreatments/>
       <OpenHours/>
-      <YouTubeShortsTestimonial/>
+      {/* <YouTubeShortsTestimonial/> */}
       <FaqSection/>
       <TestimonialsSection/>
       <BookAppointment/>

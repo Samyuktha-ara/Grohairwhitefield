@@ -9,18 +9,17 @@ const SecondaryHeader = () => {
   return (
     <div className={styles.secondaryHeader}>
       <div className={styles.inner}>
-
         {/* LEFT SIDE: Phone + Email */}
         <div className={styles.left}>
           <div className={styles.item}>
             <FontAwesomeIcon icon={faPhone} />
-            <a href="tel:+918098756789"> (+91) 80987 56789</a>
+            <a href="tel:+918270556789"> (+91)82705 56789</a>
           </div>
 
           <div className={styles.item}>
             <FontAwesomeIcon icon={faEnvelope} />
-            <a href="mailto:grohairgloskintnj@gmail.com">
-               grohairgloskintnj@gmail.com
+            <a href="mailto:grohairgloskin@gmail.com">
+              grohairgloskin@gmail.com
             </a>
           </div>
         </div>
@@ -28,7 +27,7 @@ const SecondaryHeader = () => {
         {/* RIGHT SIDE: SOCIAL ICONS */}
         <div className={styles.right}>
           <a
-            href="https://www.facebook.com/adgrohairgloskinthanjavur"
+            href="https://www.facebook.com/adgrohairclinicwhitefield"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -36,22 +35,21 @@ const SecondaryHeader = () => {
           </a>
 
           <a
-            href="https://www.instagram.com/adgrohairgloskinthanjavur/"
+            href="https://www.instagram.com/adgrogloclinicwhitefield/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D#"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faInstagram} className={styles.socialIcon} />
           </a>
 
-          <a
+          {/* <a
             href="https://www.youtube.com/@AdGrohairGloskinThanjavur"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faYoutube} className={styles.socialIcon} />
-          </a>
+          </a> */}
         </div>
-
       </div>
     </div>
   );

@@ -48,11 +48,13 @@ export default function BeforeAfterSection() {
     <section className={styles.section}>
       <h2 className={styles.title}>Before & After Transformations</h2>
       <p className={styles.subtitle}>
-        Real client results from GroHair & GloSkin Thanjavur.
+        Real client results from Advance GroHair & GloSkin Whitefield.
       </p>
 
       <div className={styles.sliderWrapper}>
-        <button className={styles.navBtn} onClick={scrollLeft}>❮</button>
+        <button className={styles.navBtn} onClick={scrollLeft}>
+          ❮
+        </button>
 
         <div className={styles.slider} ref={sliderRef}>
           {images.map((img, index) => (
@@ -62,7 +64,9 @@ export default function BeforeAfterSection() {
           ))}
         </div>
 
-        <button className={styles.navBtn} onClick={scrollRight}>❯</button>
+        <button className={styles.navBtn} onClick={scrollRight}>
+          ❯
+        </button>
       </div>
     </section>
   );

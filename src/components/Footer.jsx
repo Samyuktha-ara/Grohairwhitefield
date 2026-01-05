@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Footer.module.css";
-import Footerlogo from "../assets/G-logo.webp"
+import Footerlogo from "../assets/logo.png";
 
 const Footer = () => {
   return (
@@ -8,11 +8,7 @@ const Footer = () => {
       <div className={styles.container}>
         {/* Logo + small text */}
         <div className={styles.brandCol}>
-          <img
-            src={Footerlogo}
-            alt="GroHair Logo"
-            className={styles.logo}
-          />
+          <img src={Footerlogo} alt="GroHair Logo" className={styles.logo} />
           <p className={styles.tagline}>
             Advanced hair & skin treatments with personalised care.
           </p>
@@ -63,7 +59,7 @@ const Footer = () => {
             {/* Replace src with your real Google Maps embed */}
             <iframe
               title="GroHair Location"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3546.939232706588!2d79.136112!3d10.773315!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baab962ed07ae27%3A0x301c1c67f63e3b6c!2sAdvanced%20GroHair%20%26%20GloSkin%20-%20Thanjavur!5e1!3m2!1sen!2sin!4v1764052023250!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3518.4985790124797!2d77.74722017507636!3d12.967532887347513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0daa11099d79%3A0x476a129c832a9592!2sAdvanced%20GroHair%20%26%20GloSkin%20-%20Whitefield%20-%20Leading%20Hair%20and%20Skin%20Clinic!5e1!3m2!1sen!2sin!4v1767072242399!5m2!1sen!2sin"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               className={styles.mapIframe}

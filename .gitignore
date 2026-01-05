@@ -12,7 +12,7 @@ dist
 dist-ssr
 *.local
 whitefield.zip
-
+echo *.zip >> .gitignore
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

@@ -56,9 +56,9 @@
 
 /* Logo image */
 .logoImg {
-  width: 126px;
-  height:86px;
-  object-fit: contain;
+  width: 106px;
+  height:66px;
+  /* object-fit: contain; */
   padding: 6px;
 }
 

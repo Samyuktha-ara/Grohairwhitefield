@@ -93,12 +93,15 @@ export default function ContactPage() {
 
           <div className={styles.mapWrapper}>
             <iframe
-              title="clinic-location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3518.4985790124797!2d77.74722017507636!3d12.967532887347513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0daa11099d79%3A0x476a129c832a9592!2sAdvanced%20GroHair%20%26%20GloSkin%20-%20Neyveli%20-%20Leading%20Hair%20and%20Skin%20Clinic!5e1!3m2!1sen!2sin!4v1767072242399!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.555196240993!2d79.54481187605182!3d11.621874213618868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a54b1fa5f54e4c5%3A0x81b7ed99a77b9c06!2sAdvanced%20GroHair%20%26%20GloSkin%20-%20Neyveli!5e1!3m2!1sen!2sin!4v1767948294992!5m2!1sen!2sin"
+              width="600"
+              height="450"
+              style={{ border: 0 }}
+              allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               className={styles.mapIframe}
-            ></iframe>
+            />
           </div>
 
           <div className={styles.contactInfoGrid}>
@@ -107,7 +110,7 @@ export default function ContactPage() {
                 <FontAwesomeIcon icon={faPhoneAlt} />
               </span>
               <p className={styles.infoTitle}>Phone</p>
-              <p className={styles.infoValue}>+9108270556789</p>
+              <p className={styles.infoValue}>+91096375 56789</p>
             </div>
 
             <div className={styles.infoBox}>
@@ -124,9 +127,9 @@ export default function ContactPage() {
               </span>
               <p className={styles.infoTitle}>Address</p>
               <p className={styles.infoValue}>
-                11/3, 1st Floor, ELV Amoris, VASWANI PINNACLE, Neyveli Main Rd,
-                opposite Borewell Road, Narayanappa Garden, Landmark:Behind,
-                Bengaluru, Karnataka 560066
+                1st floor, No. 15/4 A1, Chennai-Kumbakonam Main Rd, near Suzuki
+                Motorcycle, Ashok Nagar, Vadakuthu, Neyveli T.S, Tamil Nadu
+                607308
               </p>
             </div>
           </div>

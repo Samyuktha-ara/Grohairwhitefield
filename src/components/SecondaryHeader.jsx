@@ -17,7 +17,7 @@ const SecondaryHeader = () => {
         <div className={styles.left}>
           <div className={styles.item}>
             <FontAwesomeIcon icon={faPhone} />
-            <a href="tel:+918270556789"> (+91)82705 56789</a>
+            <a href="tel:+9196375 56789"> 96375 56789</a>
           </div>
 
           <div className={styles.item}>

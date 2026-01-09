@@ -3,7 +3,11 @@ import styles from "./SecondaryHeader.module.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faFacebookF, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFacebookF,
+  faInstagram,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 
 const SecondaryHeader = () => {
   return (
@@ -27,7 +31,7 @@ const SecondaryHeader = () => {
         {/* RIGHT SIDE: SOCIAL ICONS */}
         <div className={styles.right}>
           <a
-            href="https://www.facebook.com/adgrohairclinicwhitefield"
+            href="https://www.facebook.com/adgrohairclinicNeyveli"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -35,7 +39,7 @@ const SecondaryHeader = () => {
           </a>
 
           <a
-            href="https://www.instagram.com/adgrogloclinicwhitefield/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D#"
+            href="https://www.instagram.com/adgrogloclinicNeyveli/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D#"
             target="_blank"
             rel="noopener noreferrer"
           >

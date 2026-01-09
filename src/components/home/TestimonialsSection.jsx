@@ -1,20 +1,20 @@
 // TestimonialsSection.jsx
-import React, { useEffect, useRef, useState } from 'react';
-import styles from './TestimonialsSection.module.css';
-import { FaQuoteLeft, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import React, { useEffect, useRef, useState } from "react";
+import styles from "./TestimonialsSection.module.css";
+import { FaQuoteLeft, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 // Replace these with your actual assets
-import hero from '../../assets/hero-1.jpg';
-import avatar1 from '../../assets/hero-2.jpg';
-import avatar2 from '../../assets/hero-3.jpg';
-import avatar3 from '../../assets/hero-4.jpg';
-import avatar4 from '../../assets/about.jpg';
+import hero from "../../assets/hero-1.jpg";
+import avatar1 from "../../assets/hero-2.jpg";
+import avatar2 from "../../assets/hero-3.jpg";
+import avatar3 from "../../assets/hero-4.jpg";
+import avatar4 from "../../assets/about.jpg";
 
 const DATA = [
   {
     id: 1,
     type: "Hair Treatment",
-    text: "It's been a very fantastic and nice experience with Advance GroHair & GloSkin Whitefield team, I got the best result after my GFC treatment. The way they handle the customer is really nice, polite, and sweet. Thank you",
+    text: "It's been a very fantastic and nice experience with Advance GroHair & GloSkin Neyveli team, I got the best result after my GFC treatment. The way they handle the customer is really nice, polite, and sweet. Thank you",
     name: "RAMANATHAN – Hair Treatment",
     img: avatar1,
   },
@@ -35,7 +35,7 @@ const DATA = [
   {
     id: 4,
     type: "Skin & Hair Treatment",
-    text: "GroHair & GloSkin Whitefield provide excellent care and support through out my treatment.",
+    text: "GroHair & GloSkin Neyveli provide excellent care and support through out my treatment.",
     name: "RAGHU – Skin & Hair Treatment",
     img: avatar4,
   },
@@ -101,18 +101,20 @@ export default function TestimonialsModernSingleImage() {
   }, []);
 
   return (
-    <section className={styles.section} id='testimonials'>
+    <section className={styles.section} id="testimonials">
       <h2 className={styles.heading}>What Our Customers Say!</h2>
       <div className={styles.inner}>
         {/* LEFT: single hero image (reduced height) */}
-        
+
         <div className={styles.left}>
           <div className={styles.heroWrap}>
             <img src={hero} alt="Client hero" className={styles.hero} />
             <div className={styles.leftOverlay}>
               <div className={styles.brand}>GroHair & GloSkin</div>
               <h3 className={styles.title}>Real Stories, Real Results</h3>
-              <p className={styles.lead}>Short testimonials from verified clients.</p>
+              <p className={styles.lead}>
+                Short testimonials from verified clients.
+              </p>
             </div>
           </div>
         </div>
@@ -186,7 +188,9 @@ export default function TestimonialsModernSingleImage() {
                 <button
                   key={idx}
                   onClick={() => setIndex(idx)}
-                  className={`${styles.dot} ${idx === index ? styles.dotActive : ""}`}
+                  className={`${styles.dot} ${
+                    idx === index ? styles.dotActive : ""
+                  }`}
                   aria-label={`Go to ${idx + 1}`}
                 />
               ))}

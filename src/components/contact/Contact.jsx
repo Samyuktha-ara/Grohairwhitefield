@@ -1,7 +1,11 @@
 import React from "react";
 import styles from "./Contact.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhoneAlt, faEnvelope, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import {
+  faPhoneAlt,
+  faEnvelope,
+  faMapMarkerAlt,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function ContactPage() {
   const handleSubmit = (e) => {
@@ -90,7 +94,7 @@ export default function ContactPage() {
           <div className={styles.mapWrapper}>
             <iframe
               title="clinic-location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3518.4985790124797!2d77.74722017507636!3d12.967532887347513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0daa11099d79%3A0x476a129c832a9592!2sAdvanced%20GroHair%20%26%20GloSkin%20-%20Whitefield%20-%20Leading%20Hair%20and%20Skin%20Clinic!5e1!3m2!1sen!2sin!4v1767072242399!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3518.4985790124797!2d77.74722017507636!3d12.967532887347513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0daa11099d79%3A0x476a129c832a9592!2sAdvanced%20GroHair%20%26%20GloSkin%20-%20Neyveli%20-%20Leading%20Hair%20and%20Skin%20Clinic!5e1!3m2!1sen!2sin!4v1767072242399!5m2!1sen!2sin"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               className={styles.mapIframe}
@@ -120,8 +124,8 @@ export default function ContactPage() {
               </span>
               <p className={styles.infoTitle}>Address</p>
               <p className={styles.infoValue}>
-                11/3, 1st Floor, ELV Amoris, VASWANI PINNACLE, Whitefield Main
-                Rd, opposite Borewell Road, Narayanappa Garden, Landmark:Behind,
+                11/3, 1st Floor, ELV Amoris, VASWANI PINNACLE, Neyveli Main Rd,
+                opposite Borewell Road, Narayanappa Garden, Landmark:Behind,
                 Bengaluru, Karnataka 560066
               </p>
             </div>

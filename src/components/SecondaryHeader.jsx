@@ -3,7 +3,11 @@ import styles from "./SecondaryHeader.module.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faFacebookF, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFacebookF,
+  faInstagram,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 
 const SecondaryHeader = () => {
   return (

@@ -120,7 +120,7 @@ export default function ContactPage() {
               </span>
               <p className={styles.infoTitle}>Address</p>
               <p className={styles.infoValue}>
-                11/3, 1st Floor, ELV Amoris, VASWANI PINNACLE, Whitefield Main
+                11/3, 1st Floor, ELV Amoris, VASWANI PINNACLE, zeld Main
                 Rd, opposite Borewell Road, Narayanappa Garden, Landmark:Behind,
                 Bengaluru, Karnataka 560066
               </p>

@@ -27,15 +27,18 @@ export default function AboutSection() {
 
       <div className={styles.left}>
         <div className={styles.card1}>
-          <h3>Advance GroHair & GloSkin Whitefield</h3>
+          <h3>Advance GroHair & GloSkin whitefield</h3>
           <p>
-            Whether you’re struggling with hair loss, scalp issues, acne, pigmentation, or signs of aging, our advanced treatments deliver visible and long-lasting results.
+            Whether you’re struggling with hair loss, scalp issues, acne,
+            pigmentation, or signs of aging, our advanced treatments deliver
+            visible and long-lasting results.
           </p>
         </div>
 
         <div className={styles.card2}>
           <h2>
-           Our team of certified professionals specializes in providing personalized solutions tailored to your unique concerns.
+            Our team of certified professionals specializes in providing
+            personalized solutions tailored to your unique concerns.
           </h2>
         </div>
 
@@ -58,11 +61,7 @@ export default function AboutSection() {
       <div className={styles.right}>
         <div className={styles.imageFrame}></div>
 
-        <img
-          src={aboutImg}
-          alt="GroHair About"
-          className={styles.mainImage}
-        />
+        <img src={aboutImg} alt="GroHair About" className={styles.mainImage} />
 
         <div className={styles.badge}>
           <h4>Premium Care</h4>

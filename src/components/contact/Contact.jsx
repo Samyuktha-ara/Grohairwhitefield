@@ -103,35 +103,33 @@ export default function ContactPage() {
               className={styles.mapIframe}
             />
           </div>
+        </div>
+        <div className={styles.contactInfoGrid}>
+          <div className={styles.infoBox}>
+            <span className={styles.iconWrap}>
+              <FontAwesomeIcon icon={faPhoneAlt} />
+            </span>
+            <p className={styles.infoTitle}>Phone</p>
+            <p className={styles.infoValue}>+9196375 56789</p>
+          </div>
 
-          <div className={styles.contactInfoGrid}>
-            <div className={styles.infoBox}>
-              <span className={styles.iconWrap}>
-                <FontAwesomeIcon icon={faPhoneAlt} />
-              </span>
-              <p className={styles.infoTitle}>Phone</p>
-              <p className={styles.infoValue}>+91096375 56789</p>
-            </div>
+          <div className={styles.infoBox}>
+            <span className={styles.iconWrap}>
+              <FontAwesomeIcon icon={faEnvelope} />
+            </span>
+            <p className={styles.infoTitle}>Email</p>
+            <p className={styles.infoValue}>grohairgloskin@gmail.com</p>
+          </div>
 
-            <div className={styles.infoBox}>
-              <span className={styles.iconWrap}>
-                <FontAwesomeIcon icon={faEnvelope} />
-              </span>
-              <p className={styles.infoTitle}>Email</p>
-              <p className={styles.infoValue}>grohairgloskin@gmail.com</p>
-            </div>
-
-            <div className={styles.infoBox}>
-              <span className={styles.iconWrap}>
-                <FontAwesomeIcon icon={faMapMarkerAlt} />
-              </span>
-              <p className={styles.infoTitle}>Address</p>
-              <p className={styles.infoValue}>
-                1st floor, No. 15/4 A1, Chennai-Kumbakonam Main Rd, near Suzuki
-                Motorcycle, Ashok Nagar, Vadakuthu, Neyveli T.S, Tamil Nadu
-                607308
-              </p>
-            </div>
+          <div className={styles.infoBox}>
+            <span className={styles.iconWrap}>
+              <FontAwesomeIcon icon={faMapMarkerAlt} />
+            </span>
+            <p className={styles.infoTitle}>Address</p>
+            <p className={styles.infoValue}>
+              1st floor, No. 15/4 A1, Chennai-Kumbakonam Main Rd, near Suzuki
+              Motorcycle, Ashok Nagar, Vadakuthu, Neyveli T.S, Tamil Nadu 607308
+            </p>
           </div>
         </div>
       </div>

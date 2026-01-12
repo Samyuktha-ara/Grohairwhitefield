@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./AboutHero.module.css";
-import aboutImg from "../../assets/about.webp"
+import aboutImg from "../../assets/Neyveli-about.jpg"
 
 export default function AboutHero() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Footer.module.css";
-import Footerlogo from "../assets/Neyveli.jpg";
+import Footerlogo from "../assets/Neyveli-white.png";
 
 const Footer = () => {
   return (

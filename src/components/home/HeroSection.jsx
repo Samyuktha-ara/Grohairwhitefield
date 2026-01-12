@@ -12,21 +12,21 @@ const slides = [
     img: hero1,
     title: "Advanced Skin Brightening & Glow Treatments",
     subtitle: "Personalized care for strong, healthy, confident hair.",
-    brand: "Advance GroHair & GloSkin Neyveli",
+    brand: "Advance GroHair & GloSkin whitefield",
   },
   {
     id: 3,
     img: hero3,
     title: "Experience GroHair Excellence",
     subtitle: "Premium technology & visible results.",
-    brand: "Advance GroHair & GloSkin Neyveli",
+    brand: "Advance GroHair & GloSkin whitefield",
   },
   {
     id: 2,
     img: hero2,
     title: "Anti-Aging & Skin Rejuvenation",
     subtitle: "Achieve clean, smooth, radiant skin with medical-grade care.",
-    brand: "Advance GroHair & GloSkin Neyveli",
+    brand: "Advance GroHair & GloSkin whitefield",
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ const slides = [
     title: "Eyebrow Transplant Perfection",
     subtitle:
       "Achieve fuller, natural-looking brows with precise follicle restoration.",
-    brand: "Advance GroHair & GloSkin Neyveli",
+    brand: "Advance GroHair & GloSkin whitefield",
   },
 ];
 

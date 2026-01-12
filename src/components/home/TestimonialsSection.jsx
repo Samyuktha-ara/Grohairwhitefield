@@ -14,7 +14,7 @@ const DATA = [
   {
     id: 1,
     type: "Hair Treatment",
-    text: "It's been a very fantastic and nice experience with Advance GroHair & GloSkin Neyveli team, I got the best result after my GFC treatment. The way they handle the customer is really nice, polite, and sweet. Thank you",
+    text: "It's been a very fantastic and nice experience with Advance GroHair & GloSkin whitefield team, I got the best result after my GFC treatment. The way they handle the customer is really nice, polite, and sweet. Thank you",
     name: "RAMANATHAN – Hair Treatment",
     img: avatar1,
   },
@@ -35,7 +35,7 @@ const DATA = [
   {
     id: 4,
     type: "Skin & Hair Treatment",
-    text: "GroHair & GloSkin Neyveli provide excellent care and support through out my treatment.",
+    text: "GroHair & GloSkin whitefield provide excellent care and support through out my treatment.",
     name: "RAGHU – Skin & Hair Treatment",
     img: avatar4,
   },

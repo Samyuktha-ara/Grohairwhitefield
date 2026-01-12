@@ -127,8 +127,9 @@ export default function ContactPage() {
             </span>
             <p className={styles.infoTitle}>Address</p>
             <p className={styles.infoValue}>
-              1st floor, No. 15/4 A1, Chennai-Kumbakonam Main Rd, near Suzuki
-              Motorcycle, Ashok Nagar, Vadakuthu, Neyveli T.S, Tamil Nadu 607308
+              11/3, 1st Floor, ELV Amoris, VASWANI PINNACLE, Whitefield Main Rd,
+              opposite Borewell Road, Narayanappa Garden, Landmark:Behind,
+              Bengaluru, Karnataka 560066
             </p>
           </div>
         </div>

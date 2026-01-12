@@ -27,7 +27,7 @@ export default function AboutSection() {
 
       <div className={styles.left}>
         <div className={styles.card1}>
-          <h3>Advance GroHair & GloSkin Neyveli</h3>
+          <h3>Advance GroHair & GloSkin whitefield</h3>
           <p>
             Whether you’re struggling with hair loss, scalp issues, acne,
             pigmentation, or signs of aging, our advanced treatments deliver

@@ -48,7 +48,7 @@ export default function BeforeAfterSection() {
     <section className={styles.section}>
       <h2 className={styles.title}>Before & After Transformations</h2>
       <p className={styles.subtitle}>
-        Real client results from Advance GroHair & GloSkin Neyveli.
+        Real client results from Advance GroHair & GloSkin whitefield.
       </p>
 
       <div className={styles.sliderWrapper}>

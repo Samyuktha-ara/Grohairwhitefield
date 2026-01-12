@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import styles from "./Header.module.css";
-import logo from "../assets/Neyveli.png";
+import logo from "../assets/whitefield.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -40,9 +40,7 @@ const Header = () => {
         </div>
 
         {/* Nav */}
-        <nav
-          className={`${styles.nav} ${isMenuOpen ? styles.navOpen : ""}`}
-        >
+        <nav className={`${styles.nav} ${isMenuOpen ? styles.navOpen : ""}`}>
           <NavLink
             to="/"
             className={({ isActive }) =>

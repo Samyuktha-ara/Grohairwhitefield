@@ -17,7 +17,7 @@ const SecondaryHeader = () => {
         <div className={styles.left}>
           <div className={styles.item}>
             <FontAwesomeIcon icon={faPhone} />
-            <a href="tel:+9196375 56789"> 96375 56789</a>
+            <a href="tel:82705 56789"> 82705 56789</a>
           </div>
 
           <div className={styles.item}>
@@ -31,7 +31,7 @@ const SecondaryHeader = () => {
         {/* RIGHT SIDE: SOCIAL ICONS */}
         <div className={styles.right}>
           <a
-            href="https://www.facebook.com/adgrohairclinicNeyveli"
+            href="https://www.facebook.com/adgrohairclinicwhitefield"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -39,7 +39,7 @@ const SecondaryHeader = () => {
           </a>
 
           <a
-            href="https://www.instagram.com/adgrogloclinicNeyveli/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D#"
+            href="https://www.instagram.com/adgrogloclinicwhitefield/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D#"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Footer.module.css";
-import Footerlogo from "../assets/Neyveli-white.png";
+import Footerlogo from "../assets/Whitefield-white.png";
 
 const Footer = () => {
   return (
@@ -58,15 +58,12 @@ const Footer = () => {
           <div className={styles.mapWrap}>
             {/* Replace src with your real Google Maps embed */}
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.555196240993!2d79.54481187605182!3d11.621874213618868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a54b1fa5f54e4c5%3A0x81b7ed99a77b9c06!2sAdvanced%20GroHair%20%26%20GloSkin%20-%20Neyveli!5e1!3m2!1sen!2sin!4v1767948294992!5m2!1sen!2sin"
-              width="600"
-              height="450"
-              style={{ border: 0 }}
-              allowFullScreen
+              title="GroHair Location"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3518.4985790124797!2d77.74722017507636!3d12.967532887347513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0daa11099d79%3A0x476a129c832a9592!2sAdvanced%20GroHair%20%26%20GloSkin%20-%20Whitefield%20-%20Leading%20Hair%20and%20Skin%20Clinic!5e1!3m2!1sen!2sin!4v1767072242399!5m2!1sen!2sin"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               className={styles.mapIframe}
-            />
+            ></iframe>
           </div>
         </div>
       </div>
